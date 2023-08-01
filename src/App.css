@@ -288,8 +288,73 @@
 }
 
 .electri_div{
-  margin-left: 185px;
-  bottom: -50px;
+  margin-left: 213px;
+  bottom: -44px;
+  position: absolute;
+  z-index: 2;
 
 
+}
+
+.electri{
+  width: 60px;
+}
+
+.skrolElectri_div{
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  margin-left: 209px;
+  bottom: -39px;
+  background-color: transparent;
+  border-radius: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.skrolElectri_div::after {
+  content: "";
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  background-image: conic-gradient(
+    transparent,
+    transparent,
+    transparent,
+    #01CABB
+  );
+  animation: animate 4s linear infinite;
+  animation-delay: -10s;
+}
+.skrolElectri_div::before {
+  content: "";
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  background-image: conic-gradient(
+    transparent,
+    transparent,
+    transparent,
+    #01CABB
+  );
+  animation: skrolElectrianimate 4s linear infinite;
+}
+
+
+@keyframes skrolElectrianimate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.skrolElectri_div span {
+  position: absolute;
+  inset: 2px;
+  border-radius: 500px;
+  background: #071B44;
+  z-index: 1;
 }

@@ -62,9 +62,14 @@ function App() {
             </div>
           </div>
           <div className="Hero_centercomponents">
+            <div className="skrolElectri_div">
+              <span>
+                
+              </span>
+            </div>
             <div className="electri_div">
               
-              {/* <img src={electri} className="electri" alt="charger icon" /> */}
+              <img src={electri} className="electri" alt="charger icon" />
             </div>
           </div>
 
