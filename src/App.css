@@ -1,38 +1,295 @@
-.App {
-  text-align: center;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.body {
+  background-color: #071b44;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+/* asosiy css  */
+
+.hero_documnet_logo {
+  width: 30px;
+  display: flex;
+  margin: 0 auto;
 }
 
-@keyframes App-logo-spin {
-  from {
+.documentbuttonP {
+  padding: 8px;
+  color: #1497a6;
+  text-align: center;
+  font-size: 45px;
+}
+.documentbuttonP1 {
+  padding: 8px;
+  color: rgb(216, 29, 29);
+  text-align: center;
+  font-size: 45px;
+}
+.documentbuttontext {
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-size: 17px;
+}
+.documentbuttontext1 {
+  color: rgb(16, 173, 16);
+  display: flex;
+  justify-content: center;
+  font-size: 17px;
+}
+
+.box {
+  position: relative;
+  width: 250px;
+  height: 200px;
+  background-color: rgb(5, 5, 22);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.box::after {
+  content: "";
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  background-image: conic-gradient(
+    transparent,
+    transparent,
+    transparent,
+    #1500d4
+  );
+  animation: animate 4s linear infinite;
+  animation-delay: -10s;
+}
+.box::before {
+  content: "";
+  position: absolute;
+  width: 550px;
+  height: 550px;
+  background-image: conic-gradient(
+    transparent,
+    transparent,
+    transparent,
+    #00ccff
+  );
+  animation: animate 4s linear infinite;
+}
+@keyframes animate {
+  0% {
     transform: rotate(0deg);
   }
-  to {
+  100% {
     transform: rotate(360deg);
   }
+}
+
+.box span {
+  position: absolute;
+  inset: 2px;
+  border-radius: 16px;
+  background: #0c1022;
+  z-index: 1;
+}
+.hero_documnet {
+  position: relative;
+  z-index: 2;
+}
+
+/* next section css  */
+
+.Hero_section {
+  width: 600px;
+  height: 600px;
+  margin-left: 15%;
+  position: relative;
+  
+}
+
+.Hero_buttons {
+  padding: 5px; 
+  display: flex;
+}
+.Hero_text {
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}
+
+.Hero_number {
+  color: turquoise;
+  display: flex;
+  justify-content: center;
+  font-size: 64px;
+}
+
+.Hero_button_left {
+  margin-right: 15px;
+  width: 233px;
+  height: 165px;
+  padding-top: 20px;
+  background-image: linear-gradient(to right,#010A26 ,  #0b4392);
+  position: relative;
+  border-block-start: solid #05EEE0;
+  border-left:  solid #05EEE0;;
+  overflow: hidden;
+
+  
+}
+
+.Hero_button_left_button {
+  position: absolute;
+  margin-left: 70%;
+    margin-top: -16%;
+  border-bottom: 1px solid #071b44;
+  border-right: 1px solid#071B44;
+}
+.Hero_button_left_button::before {
+  content: "";
+  border: 2px solid #05EEE0;
+  position: absolute;
+  width: 135px;
+  height: 136px;
+  background: #071b44;
+  border-radius: 50%;
+  box-shadow: 10px 10px 0 transparent;
+}
+
+.Hero_button_right {
+  width: 233px;
+  height: 165px;
+  padding-top: 20px;
+  background-image: linear-gradient(to right,  #0b4392,  #010A26 );
+  position: relative;
+  overflow: hidden; 
+  border-block-start: solid #05EEE0;
+  border-right: solid #05EEE0;
+
+
+
+}
+
+.Hero_button_right_button {
+  position: absolute;
+  margin-left: -37%;
+    margin-top: -16%;
+  border-bottom: 1px solid #071b44;
+  border-right: 1px solid#071B44;
+}
+
+.Hero_button_right_button::before {
+  content: "";
+  position: absolute;
+  width: 142px;
+  height: 121px;
+  background: #071b44;
+  border-radius: 50%;
+  box-shadow: 10px 10px 0 transparent;
+  border: 2px solid #05EEE0;
+
+}
+
+.Button_left_down {
+  margin-right: 15px;
+  width: 233px;
+  height: 165px;
+  padding-top: 20px;
+  background-image: linear-gradient(to right,#010A26 ,  #0b4392);
+  position: relative;
+  overflow: hidden;
+  border-block-end: solid #05EEE0;
+  border-left: solid #05EEE0;
+ 
+  
+
+}
+.Button_left_down_span {
+  position: absolute;
+  color: red;
+  background: red;
+  margin-left: 70%;
+  margin-top: -86%;
+
+  border-bottom: 1px solid #071b44;
+  border-right: 1px solid#071B44;
+}
+
+.Button_left_down_span::before {
+  content: "";
+  position: absolute;
+  width: 130px;
+  height: 127px;
+  background: #071B44;
+  border-radius: 50%;
+  box-shadow: 10px 10px 0 transparent;
+  border: 2px solid #05EEE0;
+}
+
+.Button_right_down {
+  width: 233px;
+  height: 165px;
+  padding-top: 20px;
+  background-image: linear-gradient(to right, #0b4392,  #010A26 );
+  position: relative;
+  overflow: hidden;
+  border-block-end: solid #05EEE0;
+  border-right: solid #05EEE0;
+  
+ 
+
+
+}
+
+.Button_right_down_span {
+  position: absolute;
+  color: red;
+  background: red;
+  margin-left: -33%;
+    margin-top: -86%;
+  border-bottom: 1px solid #071b44;
+  border-right: 1px solid#071B44;
+}
+.Button_right_down_span::before {
+  content: "";
+  position: absolute;
+  width: 134px;
+  height: 127px;
+  background: #071b44;
+  border-radius: 50%;
+  box-shadow: 10px 10px 0 transparent;
+  border: 2px solid #05EEE0;
+  
+}
+
+
+/* central components css */
+
+
+.Hero_centercomponents{
+  position: absolute;
+  display: flex;
+  z-index: 1;
+  border-radius: 50%;
+  box-shadow: 10px 10px 0 transparent;
+  
+  
+}
+
+.electri_div{
+  margin-left: 185px;
+  bottom: -50px;
+
+
 }

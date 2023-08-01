@@ -1,23 +1,87 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+
+import img from "./components/img/document.svg";
+import svg from "./components/img/person.svg";
+import yuang from "./components/img/yuang.svg";
+import electri from "./components/img/electri.svg";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div className="body ">
+      <header className="">
+        <div className="box ">
+          <span></span>
+
+          <div className="hero_documnet">
+            <img src={img} className="hero_documnet_logo" alt="" />
+            <p className="documentbuttonP">100</p>
+            <text className="documentbuttontext">Transportlar</text>
+          </div>
+        </div>
+
+        <br />
+
+        <div className="box ">
+          <span></span>
+          <div className="hero_documnet">
+            <img src={svg} className="hero_documnet_logo" alt="" />
+            <p className="documentbuttonP">1228</p>
+            <text className="documentbuttontext1">Avtobuslar</text>
+          </div>
+        </div>
+
+        <br />
+
+        <div className="box ">
+          <span></span>
+          <div className="hero_documnet">
+            <img src={yuang} className="hero_documnet_logo" alt="" />
+            <p className="documentbuttonP1">3908</p>
+            <text className="documentbuttontext">Kameralar</text>
+          </div>
+        </div>
       </header>
+      <br />
+      <br />
+
+      <main>
+        <div className="Hero_section">
+          <div className="Hero_buttons">
+            <div className="Hero_button_left">
+              <p className="Hero_text">Tadbirkor</p>
+              <p className="Hero_number">92</p>
+              <span className="Hero_button_left_button"></span>
+            </div>
+
+            <div className="Hero_button_right">
+              <p className="Hero_text">Biznesman</p>
+              <p className="Hero_number">38</p>
+              <span className="Hero_button_right_button"></span>
+            </div>
+          </div>
+          <div className="Hero_centercomponents">
+            <div className="electri_div">
+              
+              {/* <img src={electri} className="electri" alt="charger icon" /> */}
+            </div>
+          </div>
+
+          <div className="Hero_buttons">
+            <div className="Button_left_down">
+              <p className="Hero_text">Fermar</p>
+              <p className="Hero_number">20</p>
+              <span className="Button_left_down_span"></span>
+            </div>
+            <div className="Button_right_down">
+              <p className="Hero_text">YTT</p>
+              <p className="Hero_number">16</p>
+              <span className="Button_right_down_span"></span>
+            </div>
+          </div>
+        </div>
+      </main>
     </div>
   );
 }
