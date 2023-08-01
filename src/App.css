@@ -151,21 +151,41 @@
 
 .Hero_button_left_button {
   position: absolute;
-  margin-left: 70%;
-    margin-top: -16%;
-  border-bottom: 1px solid #071b44;
-  border-right: 1px solid#071B44;
+    margin-left: 71%;
+    margin-top: -22%;
+    border-bottom: 1px solid #071b44;
+    border-right: 1px solid#071B44;
+
 }
 .Hero_button_left_button::before {
   content: "";
   border: 2px solid #05EEE0;
   position: absolute;
-  width: 135px;
-  height: 136px;
+  width: 156px;
+  height: 144px;
   background: #071b44;
   border-radius: 50%;
   box-shadow: 10px 10px 0 transparent;
 }
+
+.Hero_button_left:hover{
+  background-image: linear-gradient(to right,#000000 ,  #2C0C25);
+  border-left:  solid rgb(97, 18, 18);
+  border-block-start: solid rgb(97, 18, 18) ;
+  opacity: 1;
+  transition: 1s;
+ 
+  
+}
+.Hero_number:hover{
+  color: #BA2E54;
+  opacity: 0.5;
+  transition: 1s;
+}
+  
+  
+
+
 
 .Hero_button_right {
   width: 233px;
@@ -183,22 +203,31 @@
 
 .Hero_button_right_button {
   position: absolute;
-  margin-left: -37%;
-    margin-top: -16%;
+  margin-left: -34%;
+  margin-top: -22%;
   border-bottom: 1px solid #071b44;
   border-right: 1px solid#071B44;
 }
 
 .Hero_button_right_button::before {
-  content: "";
-  position: absolute;
-  width: 142px;
-  height: 121px;
-  background: #071b44;
-  border-radius: 50%;
-  box-shadow: 10px 10px 0 transparent;
-  border: 2px solid #05EEE0;
+      content: "";
+    position: absolute;
+    width: 144px;
+    height: 155px;
+    background: #071b44;
+    border-radius: 50%;
+    box-shadow: 10px 10px 0 transparent;
+    border: 2px solid #05EEE0;
 
+}
+.Hero_button_right:hover{
+  background-image: linear-gradient(to right,#2C0C25,#000000   );
+  border-block-start:  solid rgb(97, 18, 18);
+  border-right: solid rgb(97, 18, 18) ;
+  opacity: 1;
+  transition: 1s;
+ 
+  
 }
 
 .Button_left_down {
@@ -218,24 +247,33 @@
 .Button_left_down_span {
   position: absolute;
   color: red;
-  background: red;
-  margin-left: 70%;
-  margin-top: -86%;
-
+  margin-left: 71%;
+  margin-top: -89%;
   border-bottom: 1px solid #071b44;
   border-right: 1px solid#071B44;
 }
 
 .Button_left_down_span::before {
   content: "";
-  position: absolute;
-  width: 130px;
-  height: 127px;
-  background: #071B44;
-  border-radius: 50%;
-  box-shadow: 10px 10px 0 transparent;
-  border: 2px solid #05EEE0;
+    position: absolute;
+    width: 149px;
+    height: 130px;
+    background: #071B44;
+    border-radius: 50%;
+    box-shadow: 10px 10px 0 transparent;
+    border: 2px solid #05EEE0;
+
 }
+.Button_left_down:hover{
+  background-image: linear-gradient(to right,#2C0C25,#000000   );
+  border-block-end:  solid rgb(97, 18, 18);
+  border-left: solid rgb(97, 18, 18) ;
+  opacity: 1;
+  transition: 1s;
+ 
+  
+}
+
 
 .Button_right_down {
   width: 233px;
@@ -255,21 +293,29 @@
 .Button_right_down_span {
   position: absolute;
   color: red;
-  background: red;
-  margin-left: -33%;
-    margin-top: -86%;
+  margin-left: -30%;
+  margin-top: -89%;
   border-bottom: 1px solid #071b44;
   border-right: 1px solid#071B44;
 }
 .Button_right_down_span::before {
   content: "";
   position: absolute;
-  width: 134px;
-  height: 127px;
-  background: #071b44;
+  width: 135px;
+  height: 129px;
+  background: #071B44;
   border-radius: 50%;
   box-shadow: 10px 10px 0 transparent;
   border: 2px solid #05EEE0;
+  
+}
+.Button_right_down:hover{
+  background-image: linear-gradient(to right,#2C0C25,#000000   );
+  border-block-end:  solid rgb(97, 18, 18);
+  border-right: solid rgb(97, 18, 18);
+  opacity: 1;
+  transition: 1s;
+ 
   
 }
 
@@ -283,13 +329,19 @@
   z-index: 1;
   border-radius: 50%;
   box-shadow: 10px 10px 0 transparent;
-  
-  
+  border-radius: 50%;
+  box-shadow: 10px 10px 0 transparent;
+  /* border: 2px solid #05EEE0;
+  width: 150px;
+  height: 150px;
+  margin-left: 171px;
+  bottom: 348px;
+   */
 }
 
 .electri_div{
-  margin-left: 213px;
-  bottom: -44px;
+  margin-left: 215px;
+  bottom: -34px;
   position: absolute;
   z-index: 2;
 
@@ -304,8 +356,8 @@
   position: absolute;
   width: 64px;
   height: 64px;
-  margin-left: 209px;
-  bottom: -39px;
+  margin-left: 213px;
+    bottom: -32px;
   background-color: transparent;
   border-radius: 500px;
   display: flex;

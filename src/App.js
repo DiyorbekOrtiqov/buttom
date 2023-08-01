@@ -64,7 +64,7 @@ function App() {
           <div className="Hero_centercomponents">
             <div className="skrolElectri_div">
               <span>
-                
+
               </span>
             </div>
             <div className="electri_div">
