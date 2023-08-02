@@ -10,6 +10,7 @@ import electri from "./components/img/electri.svg";
 function App() {
   return (
     <div className="body ">
+{/* task 1*/}
       <header className="padingtop">
         <div className="box ">
           <span></span>
@@ -45,7 +46,7 @@ function App() {
       </header>
       <br />
       <br />
-
+{/* task 2 */}
       <main>
         <div className="Hero_section">
           <div className="Hero_buttons">
