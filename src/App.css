@@ -135,7 +135,11 @@
   font-size: 64px;
 }
 
+
+/* Boxs left  up button css */
+
 .Hero_button_left {
+
   margin-right: 15px;
   width: 233px;
   height: 165px;
@@ -149,24 +153,40 @@
   
 }
 
-.Hero_button_left_button {
+.Hero_skrol_left{
   position: absolute;
-    margin-left: 71%;
-    margin-top: -22%;
+  border-radius: 50%;
+  border: 2px solid #05EEE0;
+  width: 113px;
+  height: 116px;
+  margin-left: 186px;
+  bottom: -70px;
+  background-color: #071B44;
+
+}
+
+
+/* 
+.Hero_button_left_skrol  {
+  position: absolute;
+  margin-left: 78%;
+  margin-top: -14%;
     border-bottom: 1px solid #071b44;
     border-right: 1px solid#071B44;
 
+  
+
 }
-.Hero_button_left_button::before {
+.Hero_button_left_skrol::before {
   content: "";
   border: 2px solid #05EEE0;
   position: absolute;
-  width: 156px;
-  height: 144px;
+  width: 106px;
+    height: 127px;
   background: #071b44;
   border-radius: 50%;
   box-shadow: 10px 10px 0 transparent;
-}
+} */
 
 .Hero_button_left:hover{
   background-image: linear-gradient(to right,#000000 ,  #2C0C25);
@@ -183,8 +203,8 @@
   transition: 1s;
 }
   
-  
 
+/* Boxs rigth up button css */
 
 
 .Hero_button_right {
@@ -201,10 +221,10 @@
 
 }
 
-.Hero_button_right_button {
+/* .Hero_button_right_button {
   position: absolute;
-  margin-left: -34%;
-  margin-top: -22%;
+  margin-left: -39%;
+  margin-top: -15%;
   border-bottom: 1px solid #071b44;
   border-right: 1px solid#071B44;
 }
@@ -212,14 +232,14 @@
 .Hero_button_right_button::before {
       content: "";
     position: absolute;
-    width: 144px;
-    height: 155px;
+    width: 137px;
+    height: 108px;
     background: #071b44;
     border-radius: 50%;
     box-shadow: 10px 10px 0 transparent;
     border: 2px solid #05EEE0;
 
-}
+} */
 .Hero_button_right:hover{
   background-image: linear-gradient(to right,#2C0C25,#000000   );
   border-block-start:  solid rgb(97, 18, 18);
@@ -229,6 +249,22 @@
  
   
 }
+
+.Hero_skrol_right{
+  position: absolute;
+  border-radius: 50%;
+  box-shadow: 10px 10px 0 transparent;
+  border: 2px solid #05EEE0;
+  width: 110px;
+  height: 115px;
+  margin-left: -66px;
+  bottom: -69px;
+  background-color: #071B44;
+}
+
+
+
+/* Boxs rigth down button css */
 
 .Button_left_down {
   margin-right: 15px;
@@ -244,11 +280,24 @@
   
 
 }
-.Button_left_down_span {
+
+.Hero_skrol_left_down{
+  position: absolute;
+  border-radius: 50%;
+  border: 2px solid #05EEE0;
+  width: 115px;
+  height: 103px;
+  margin-left: 187px;
+  bottom: 116px;
+  background-color: #071B44;
+
+}
+
+/* .Button_left_down_span {
   position: absolute;
   color: red;
-  margin-left: 71%;
-  margin-top: -89%;
+  margin-left: 78%;
+  margin-top: -96%;
   border-bottom: 1px solid #071b44;
   border-right: 1px solid#071B44;
 }
@@ -256,14 +305,14 @@
 .Button_left_down_span::before {
   content: "";
     position: absolute;
-    width: 149px;
-    height: 130px;
+    width: 111px;
+    height: 127px;
     background: #071B44;
     border-radius: 50%;
     box-shadow: 10px 10px 0 transparent;
     border: 2px solid #05EEE0;
 
-}
+} */
 .Button_left_down:hover{
   background-image: linear-gradient(to right,#2C0C25,#000000   );
   border-block-end:  solid rgb(97, 18, 18);
@@ -273,6 +322,11 @@
  
   
 }
+
+
+
+
+/* Boxs rigth down button css */
 
 
 .Button_right_down {
@@ -290,25 +344,40 @@
 
 }
 
+.Hero_skrol_right_down{
+  position: absolute;
+  border-radius: 50%;
+  border: 2px solid #05EEE0;
+  width: 114px;
+  height: 105px;
+  margin-left: -71px;
+  bottom: 116px;
+  background-color: #071B44;
+
+}
+
+
+/* 
 .Button_right_down_span {
   position: absolute;
-  color: red;
-  margin-left: -30%;
-  margin-top: -89%;
-  border-bottom: 1px solid #071b44;
-  border-right: 1px solid#071B44;
+
+  margin-left: -41%;
+  margin-top: -103%;
+  border-bottom: 5px solid #071b44;
+  border-right: 5px solid#071B44;
 }
 .Button_right_down_span::before {
   content: "";
   position: absolute;
-  width: 135px;
-  height: 129px;
+  width: 145px;
+  height: 147px;
+  
   background: #071B44;
   border-radius: 50%;
   box-shadow: 10px 10px 0 transparent;
-  border: 2px solid #05EEE0;
+  border: 2px solid #05EEE0; 
   
-}
+/* } */
 .Button_right_down:hover{
   background-image: linear-gradient(to right,#2C0C25,#000000   );
   border-block-end:  solid rgb(97, 18, 18);
@@ -327,21 +396,22 @@
   position: absolute;
   display: flex;
   z-index: 1;
-  border-radius: 50%;
+  /* border-radius: 50%;
   box-shadow: 10px 10px 0 transparent;
   border-radius: 50%;
   box-shadow: 10px 10px 0 transparent;
-  /* border: 2px solid #05EEE0;
-  width: 150px;
-  height: 150px;
-  margin-left: 171px;
-  bottom: 348px;
-   */
+  border: 2px solid #05EEE0;
+  width: 115px;
+  height: 115px;
+  margin-left: 188px;
+  bottom: 367px; */
 }
+  
+
 
 .electri_div{
   margin-left: 215px;
-  bottom: -34px;
+  bottom: -35px;
   position: absolute;
   z-index: 2;
 
@@ -352,12 +422,12 @@
   width: 60px;
 }
 
-.skrolElectri_div{
+ .skrolElectri_div{
   position: absolute;
   width: 64px;
   height: 64px;
   margin-left: 213px;
-    bottom: -32px;
+  bottom: -33px;
   background-color: transparent;
   border-radius: 500px;
   display: flex;
@@ -409,4 +479,4 @@
   border-radius: 500px;
   background: #071B44;
   z-index: 1;
-}
+} 

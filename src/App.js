@@ -52,19 +52,24 @@ function App() {
             <div className="Hero_button_left">
               <p className="Hero_text">Tadbirkor</p>
               <p className="Hero_number">92</p>
-              <span className="Hero_button_left_button"></span>
+              <div className="Hero_skrol_left">
+                
+              </div>
+              {/* <span className="Hero_button_left_skrol"></span> */}
             </div>
 
             <div className="Hero_button_right">
               <p className="Hero_text">Biznesman</p>
               <p className="Hero_number">38</p>
-              <span className="Hero_button_right_button"></span>
+              <div className=" Hero_skrol_right">
+
+              </div>
+              {/* <span className="Hero_button_right_button"></span> */}
             </div>
           </div>
           <div className="Hero_centercomponents">
             <div className="skrolElectri_div">
               <span>
-
               </span>
             </div>
             <div className="electri_div">
@@ -77,14 +82,20 @@ function App() {
             <div className="Button_left_down">
               <p className="Hero_text">Fermar</p>
               <p className="Hero_number">20</p>
-              <span className="Button_left_down_span"></span>
+              <div className="Hero_skrol_left_down">
+
+              </div>
+              {/* <span className="Button_left_down_span"></span> */}
             </div>
             <div className="Button_right_down">
               <p className="Hero_text">YTT</p>
               <p className="Hero_number">16</p>
+              <div className="Hero_skrol_right_down">
+                
+              </div>
               <span className="Button_right_down_span"></span>
             </div>
-          </div>
+          </div> 
         </div>
       </main>
     </div>
