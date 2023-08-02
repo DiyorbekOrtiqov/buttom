@@ -10,7 +10,7 @@ import electri from "./components/img/electri.svg";
 function App() {
   return (
     <div className="body ">
-      <header className="">
+      <header className="padingtop">
         <div className="box ">
           <span></span>
 
@@ -55,7 +55,6 @@ function App() {
               <div className="Hero_skrol_left">
                 
               </div>
-              {/* <span className="Hero_button_left_skrol"></span> */}
             </div>
 
             <div className="Hero_button_right">
@@ -64,7 +63,6 @@ function App() {
               <div className=" Hero_skrol_right">
 
               </div>
-              {/* <span className="Hero_button_right_button"></span> */}
             </div>
           </div>
           <div className="Hero_centercomponents">
@@ -85,7 +83,6 @@ function App() {
               <div className="Hero_skrol_left_down">
 
               </div>
-              {/* <span className="Button_left_down_span"></span> */}
             </div>
             <div className="Button_right_down">
               <p className="Hero_text">YTT</p>
