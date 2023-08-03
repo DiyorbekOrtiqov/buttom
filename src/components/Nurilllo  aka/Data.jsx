@@ -34,7 +34,7 @@ function Data() {
     {
       id: 5,
       title: "Bo'stonlig'",
-      count: 29,
+      count:  90,
       color: '#2086E0',
 
     },
