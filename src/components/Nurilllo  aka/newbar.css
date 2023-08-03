@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@400;600&family=Lugrasimo&family=Pridi:wght@400;600;700&family=Roboto+Slab:wght@500&family=Rubik+Dirt&family=Rubik+Wet+Paint&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+  
+}
+.boxAll {
+  margin: 20px;
+  background-color: #071B44;
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto; 
+  margin-top: 20px;
+  position: relative;
+  margin-bottom: 20px;
+
+}
+
+.boxAll > .lineAll {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+  position: relative;
+  
+}
+
+
+
+
+.lineCountH1 {
+  color: white;
+  position: absolute;
+  z-index: 1;
+  font-size: 20px;
+  margin-top: 7px;
+  margin-left: -20px;
+  
+
+}
+
+.boxAll > .lineAll > .Line {
+  margin-top: 10px;
+  height:  18px;
+  position: relative;
+  margin-left: 33px;
+}
+.boxAll > .lineAll > .Line > .paintLine {
+  height: 20px;
+}
+.boxAll> .lineAll> .Line> .linetitle{
+  color: white;
+  position: absolute;
+  bottom: 1px;
+  z-index: 1;
+  
+ 
+}
+
+
+.triangle-up {
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 30px solid   #2086E0 ;
+    margin-left: 33px;
+    top: -6px;
+    right: -20px;
+    position: absolute;
+    transform: rotate(90deg);
+    z-index: 1;
+  
+   
+}

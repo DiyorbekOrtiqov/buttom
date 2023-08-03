@@ -1,0 +1,422 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .body {
+    background-color: #071b44;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+    color: white;
+  }
+  
+  .padingtop{
+    margin-top: 40px;
+  }
+  
+  /* asosiy css  */
+  
+  .hero_documnet_logo {
+    width: 30px;
+    display: flex;
+    margin: 0 auto;
+  }
+  
+  .documentbuttonP {
+    padding: 8px;
+    color: #1497a6;
+    text-align: center;
+    font-size: 45px;
+  }
+  .documentbuttonP1 {
+    padding: 8px;
+    color: rgb(216, 29, 29);
+    text-align: center;
+    font-size: 45px;
+  }
+  .documentbuttontext {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 17px;
+  }
+  .documentbuttontext1 {
+    color: rgb(16, 173, 16);
+    display: flex;
+    justify-content: center;
+    font-size: 17px;
+  }
+  
+  .box {
+    position: relative;
+    width: 250px;
+    height: 200px;
+    background-color: rgb(5, 5, 22);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  .box::after {
+    content: "";
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background-image: conic-gradient(
+      transparent,
+      transparent,
+      transparent,
+      #1500d4
+    );
+    animation: animate 4s linear infinite;
+    animation-delay: -10s;
+  }
+  .box::before {
+    content: "";
+    position: absolute;
+    width: 550px;
+    height: 550px;
+    background-image: conic-gradient(
+      transparent,
+      transparent,
+      transparent,
+      #00ccff
+    );
+    animation: animate 4s linear infinite;
+  }
+  @keyframes animate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .box span {
+    position: absolute;
+    inset: 2px;
+    border-radius: 16px;
+    background: #0c1022;
+    z-index: 1;
+  }
+  .hero_documnet {
+    position: relative;
+    z-index: 2;
+  }
+  
+  /* next section css task2  shu yerdan boshqa task2 boshlanadi */
+  /* section uchun boshlang'ich css lar */
+  .Hero_section {
+    width: 600px;
+    height: 600px;
+    margin-left: 15%;
+    position: relative;
+    
+  }
+  
+  .Hero_buttons {
+    padding: 5px; 
+    display: flex;
+  }
+  .Hero_text {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+  }
+  
+  .Hero_number {
+    color: turquoise;
+    display: flex;
+    justify-content: center;
+    font-size: 64px;
+  }
+  
+  
+  /* Boxs left  up button css */
+  
+  .Hero_button_left {
+    margin-right: 15px;
+    width: 233px;
+    height: 165px;
+    padding-top: 20px;
+    background-image: linear-gradient(to right,#010A26 ,  #0b4392);
+    position: relative;
+    border-block-start: solid #05EEE0;
+    border-left:  solid #05EEE0;;
+    overflow: hidden;
+  
+    
+  }
+  
+  .Hero_skrol_left{
+    position: absolute;
+    border-radius: 50%;
+    border: 2px solid #05EEE0;
+    width: 113px;
+    height: 116px;
+    margin-left: 186px;
+    bottom: -70px;
+    background-color: #071B44;
+  
+  }
+  
+  
+  
+  
+  .Hero_button_left:hover{
+    background-image: linear-gradient(to right,#000000 ,  #2C0C25);
+    border-left:  solid rgb(97, 18, 18);
+    border-block-start: solid rgb(97, 18, 18) ;
+    opacity: 1;
+    transition: 1s;
+   
+    
+  }
+  .Hero_button_left:hover .Hero_number{
+    color: #BA2E54;
+    opacity: 0.5;
+    transition: 1s;
+    
+  }
+  
+  /* Boxs rigth up button css */
+  
+  
+  .Hero_button_right {
+    width: 233px;
+    height: 165px;
+    padding-top: 20px;
+    background-image: linear-gradient(to right,  #0b4392,  #010A26 );
+    position: relative;
+    overflow: hidden; 
+    border-block-start: solid #05EEE0;
+    border-right: solid #05EEE0;
+  
+  
+  
+  }
+  
+  
+  .Hero_button_right:hover{
+    background-image: linear-gradient(to right,#2C0C25,#000000   );
+    border-block-start:  solid rgb(97, 18, 18);
+    border-right: solid rgb(97, 18, 18) ;
+    opacity: 1;
+    transition: 1s;
+   
+    
+  }
+  
+  .Hero_button_right:hover .Hero_number{
+    color: #BA2E54;
+    opacity: 0.5;
+    transition: 1s;
+    
+  }
+  
+  .Hero_skrol_right{
+    position: absolute;
+    border-radius: 50%;
+    box-shadow: 10px 10px 0 transparent;
+    border: 2px solid #05EEE0;
+    width: 110px;
+    height: 115px;
+    margin-left: -66px;
+    bottom: -69px;
+    background-color: #071B44;
+  }
+  
+  
+  
+  /* Boxs rigth down button css */
+  
+  .Button_left_down {
+    margin-right: 15px;
+    width: 233px;
+    height: 165px;
+    padding-top: 20px;
+    background-image: linear-gradient(to right,#010A26 ,  #0b4392);
+    position: relative;
+    overflow: hidden;
+    border-block-end: solid #05EEE0;
+    border-left: solid #05EEE0;
+   
+    
+  
+  }
+  
+  .Hero_skrol_left_down{
+    position: absolute;
+    border-radius: 50%;
+    border: 2px solid #05EEE0;
+    width: 115px;
+    height: 103px;
+    margin-left: 187px;
+    bottom: 116px;
+    background-color: #071B44;
+  
+  }
+  
+  
+  .Button_left_down:hover{
+    background-image: linear-gradient(to right,#2C0C25,#000000   );
+    border-block-end:  solid rgb(97, 18, 18);
+    border-left: solid rgb(97, 18, 18) ;
+    opacity: 1;
+    transition: 1s;
+   
+    
+  }
+  
+  
+  .Button_left_down:hover:hover .Hero_number{
+    color: #BA2E54;
+    opacity: 0.5;
+    transition: 1s;
+    
+  }
+  
+  
+  
+  
+  /* Boxs rigth down button css */
+  
+  
+  .Button_right_down {
+    width: 233px;
+    height: 165px;
+    padding-top: 20px;
+    background-image: linear-gradient(to right, #0b4392,  #010A26 );
+    position: relative;
+    overflow: hidden;
+    border-block-end: solid #05EEE0;
+    border-right: solid #05EEE0;
+    
+   
+  
+  
+  }
+  
+  .Hero_skrol_right_down{
+    position: absolute;
+    border-radius: 50%;
+    border: 2px solid #05EEE0;
+    width: 114px;
+    height: 105px;
+    margin-left: -71px;
+    bottom: 116px;
+    background-color: #071B44;
+  
+  }
+  
+  
+  
+  .Button_right_down:hover{
+    background-image: linear-gradient(to right,#2C0C25,#000000   );
+    border-block-end:  solid rgb(97, 18, 18);
+    border-right: solid rgb(97, 18, 18);
+    opacity: 1;
+    transition: 1s;
+   
+    
+  }
+  
+  .Button_right_down:hover .Hero_number{
+    color: #BA2E54;
+    opacity: 0.5;
+    transition: 1s;
+    
+  }
+  
+  
+  /* central components css */
+  
+  
+  .Hero_centercomponents{
+    position: absolute;
+    display: flex;
+    z-index: 1;
+  
+  }
+    
+  
+  
+  .electri_div{
+    margin-left: 215px;
+    bottom: -35px;
+    position: absolute;
+    z-index: 2;
+  
+  
+  }
+  
+  .electri{
+    width: 60px;
+  }
+  
+   .skrolElectri_div{
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    margin-left: 213px;
+    bottom: -33px;
+    background-color: transparent;
+    border-radius: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .skrolElectri_div::after {
+    content: "";
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    background-image: conic-gradient(
+      transparent,
+      transparent,
+      transparent,
+      #01CABB
+    );
+    animation: animate 4s linear infinite;
+    animation-delay: -10s;
+  }
+  .skrolElectri_div::before {
+    content: "";
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    background-image: conic-gradient(
+      transparent,
+      transparent,
+      transparent,
+      #01CABB
+    );
+    animation: skrolElectrianimate 4s linear infinite;
+  }
+  
+  
+  @keyframes skrolElectrianimate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  .skrolElectri_div span {
+    position: absolute;
+    inset: 2px;
+    border-radius: 500px;
+    background: #071B44;
+    z-index: 1;
+  } 
