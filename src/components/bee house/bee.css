@@ -1,0 +1,348 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+.BeeBox{
+    width: 500px;
+    height: 500px;
+
+    border-radius: 20px;
+    margin-bottom: 300px;
+}
+
+
+.BeeHeroBox{
+    margin-top: 80px;
+    width: 150px;
+    height: 150px;
+    margin-left: 20px;
+    background-color: #91ffff;
+    clip-path: polygon(50% 0, 100% 24%, 100% 76%, 50% 100%, 0 76%, 0 24%);
+ 
+}
+
+
+
+.BeeHeroBoxin{
+    margin-top: 4px;
+    margin-left: 4px;
+    position: absolute;
+    width: 143px;
+    height: 142px;
+    margin-left: px;
+    background-color: #041234 ;
+    clip-path: polygon(50% 0, 100% 24%, 100% 76%, 50% 100%, 0 76%, 0 24%);
+   
+
+
+}
+
+
+
+.BeeHeroBigLine{
+    position: relative;
+
+}
+
+
+.BeeHeroBigLine::before{
+    content: "";
+    position: absolute;
+    width: 69px;
+    height: 79px;
+    left: 2px;
+    top: 51px;
+    background-color: #D7FAFB;
+    transform: rotate(179deg);
+    clip-path: polygon(49% 8%, 100% 31%, 100% 81%, 92% 34%);
+
+
+}
+
+
+
+.BeeHeroBigLineDel{
+    position: relative;
+
+}
+
+.BeeHeroBigLineDel::before{
+    content: "";
+    position: absolute;
+    width: 55px;
+    height: 5px;
+    height: 10px;
+    left: -14px;
+    top: 66px;
+    background-color: #041234;
+    transform: rotate(83deg);
+    filter: blur(1px);
+
+}
+
+
+
+.BeeHeroBigLine2{
+    position: relative;
+    
+}
+
+.BeeHeroBigLine2::before{
+    position: absolute;
+    content: "";
+    width: 73px;
+    height: 78px;
+    background-color: #DCFFFF;
+    margin-left: 69px;
+    margin-top: 11px;
+    filter: blur(1px);
+    clip-path: polygon(49% 8%, 100% 31%, 100% 81%, 92% 34%);
+    
+         
+}
+
+
+.BeeHeroLineUp1{
+    position: relative;
+
+}
+
+.BeeHeroLineUp1::before{
+    position: absolute;
+    content: "";
+    width: 58px;
+    height: 40px;
+    margin-left: 42px;
+    background-color: #81ABC2;
+    margin-top: 3px;
+    clip-path: polygon(50% 0, 53% 35%, 100% 70%, 50% 40%, 0 70%, 48% 35%);
+
+}
+
+
+.BeeHeroLineUp2{
+    position: relative;
+
+}
+
+.BeeHeroLineUp2::before{
+    position: absolute;
+    content: "";
+    width: 58px;
+    height: 40px;
+    margin-left: 0px;
+    background-color: #81ABC2;
+    margin-top: 73px;
+    clip-path: polygon(50% 0, 53% 35%, 100% 70%, 50% 40%, 0 70%, 48% 35%);
+    transform: rotate(241deg);
+    z-index: 2;
+
+}
+
+.BeeHeroLineUp3{
+    position: relative;
+
+}
+
+.BeeHeroLineUp3::before{
+    position: absolute;
+    content: "";
+    width: 58px;
+    height: 40px;
+    margin-left: 89px;
+    background-color: #81ABC2;
+    margin-top: 71px;
+    clip-path: polygon(50% 0, 53% 35%, 100% 70%, 50% 40%, 0 70%, 48% 35%);
+    transform: rotate(120deg);
+    z-index: 2;
+
+}
+
+.BeeHeroText{
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    width: 120px;
+    height: 100px;
+    background-color: transparent;
+    padding-top: 35px;
+    margin-left: 11px;
+    z-index:3;
+    color: wheat;
+
+    
+}
+
+
+.BeeHeroText>p{
+    text-align: center;
+    width: 100px;
+    padding-top: 5px;
+    padding-left: 18px;
+
+}
+
+
+
+/* Aktiv bo'lmagan holda ko'rinishi */
+
+.BeeHeroBox2Simple{
+    margin-left: 2px;
+}
+
+.BeeHeroBoxSimple{
+    margin-top: 80px;
+    width: 147px;
+    height: 144px;
+    margin-left: 20px;
+    background-color: #91ffff;
+    clip-path: polygon(50% 0, 100% 24%, 100% 76%, 50% 100%, 0 76%, 0 24%);
+ 
+}
+
+
+
+.BeeHeroBoxinSimple{
+    margin-top: 1px;
+    position: absolute;
+    width: 143px;
+    height: 142px;
+    background-color: #041234 ;
+    clip-path: polygon(50% 0, 100% 24%, 100% 76%, 50% 100%, 0 76%, 0 24%);
+   
+
+
+}
+
+
+
+.BeeHeroBigLineSimple{
+    position: relative;
+
+}
+
+
+.BeeHeroBigLineSimple::before{
+    content: "";
+    position: absolute;
+    width: 78px;
+    height: 78px;
+    left: 33px;
+    top: 66px;
+    background-color: #D7FAFB;
+    transform: rotate(180deg);
+    clip-path: polygon(50% 1%, 100% 25%, 100% 30%, 50% 7%, 0 30%, 0 25%);
+}
+
+
+
+
+
+
+
+.BeeHeroBigLine2Simple{
+    position: relative;
+    
+}
+
+.BeeHeroBigLine2Simple::before{
+    position: absolute;
+    content: "";
+    width: 78px;
+    height: 78px;
+    background-color: #DCFFFF;
+    margin-left: 32px;
+    margin-top: -2px;
+    filter: blur(1px);
+    transform: rotate(0deg);
+    clip-path: polygon(50% 1%, 100% 25%, 100% 30%, 50% 7%, 0 30%, 0 25%);
+    z-index: 4;
+
+         
+}
+
+
+.BeeHeroLineUp1Simple{
+    position: relative;
+
+}
+
+.BeeHeroLineUp1Simple::before{
+    position: absolute;
+    content: "";
+    width: 58px;
+    height: 40px;
+    margin-left: 42px;
+    background-color: #81ABC2;
+    margin-top: 3px;
+    clip-path: polygon(50% 0, 53% 35%, 100% 70%, 50% 40%, 0 70%, 48% 35%);
+
+}
+
+
+.BeeHeroLineUp2Simple{
+    position: relative;
+
+}
+
+.BeeHeroLineUp2Simple::before{
+    position: absolute;
+    content: "";
+    width: 58px;
+    height: 40px;
+    margin-left: 0px;
+    background-color: #81ABC2;
+    margin-top: 73px;
+    clip-path: polygon(50% 0, 53% 35%, 100% 70%, 50% 40%, 0 70%, 48% 35%);
+    transform: rotate(241deg);
+    z-index: 2;
+
+}
+
+.BeeHeroLineUp3Simple{
+    position: relative;
+
+}
+
+.BeeHeroLineUp3Simple::before{
+    position: absolute;
+    content: "";
+    width: 58px;
+    height: 40px;
+    margin-left: 89px;
+    background-color: #81ABC2;
+    margin-top: 71px;
+    clip-path: polygon(50% 0, 53% 35%, 100% 70%, 50% 40%, 0 70%, 48% 35%);
+    transform: rotate(120deg);
+    z-index: 2;
+
+}
+
+.BeeHeroTextSimple{
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    width: 120px;
+    height: 100px;
+    background-color: transparent;
+    padding-top: 35px;
+    margin-left: 11px;
+    z-index:3;
+    color: wheat;
+
+    
+}
+
+
+.BeeHeroTextSimple>p{
+    text-align: center;
+    width: 100px;
+    padding-top: 5px;
+    padding-left: 18px;
+
+}
+

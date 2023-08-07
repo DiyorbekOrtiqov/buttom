@@ -5,6 +5,7 @@ import Data from "./components/Nurilllo  aka/Data";
 import Bottom from "./components/newTask/bottom"
 import Skrol from "./components/skrol bottom/Skrol"
 import Dataa from "./components/skrol bottom/data"
+import Bee from "./components/bee house/Bee"
 
 
 
@@ -15,6 +16,7 @@ function App() {
     <Data/>
     <Bottom/>
     <Dataa/>
+    <Bee/>
     </>
   )
 }
