@@ -18,7 +18,7 @@
 .BeeHeroBox{
     margin-top: 80px;
     width: 150px;
-    height: 150px;
+    height: 180px;
     margin-left: 20px;
     background-color: #91ffff;
     clip-path: polygon(50% 0, 100% 24%, 100% 76%, 50% 100%, 0 76%, 0 24%);
@@ -32,7 +32,7 @@
     margin-left: 4px;
     position: absolute;
     width: 143px;
-    height: 142px;
+    height: 172px;
     margin-left: px;
     background-color: #041234 ;
     clip-path: polygon(50% 0, 100% 24%, 100% 76%, 50% 100%, 0 76%, 0 24%);
@@ -55,34 +55,15 @@
     width: 69px;
     height: 79px;
     left: 2px;
-    top: 51px;
+    margin-top: 53%;
     background-color: #D7FAFB;
-    transform: rotate(179deg);
+    transform: rotate(181deg);
     clip-path: polygon(49% 8%, 100% 31%, 100% 81%, 92% 34%);
 
 
 }
 
 
-
-.BeeHeroBigLineDel{
-    position: relative;
-
-}
-
-.BeeHeroBigLineDel::before{
-    content: "";
-    position: absolute;
-    width: 55px;
-    height: 5px;
-    height: 10px;
-    left: -14px;
-    top: 66px;
-    background-color: #041234;
-    transform: rotate(83deg);
-    filter: blur(1px);
-
-}
 
 
 
@@ -97,8 +78,9 @@
     width: 73px;
     height: 78px;
     background-color: #DCFFFF;
-    margin-left: 69px;
-    margin-top: 11px;
+    margin-left: 48%;
+    margin-top: 11%;
+    transform: rotate(3deg);
     filter: blur(1px);
     clip-path: polygon(49% 8%, 100% 31%, 100% 81%, 92% 34%);
     
@@ -136,7 +118,7 @@
     height: 40px;
     margin-left: 0px;
     background-color: #81ABC2;
-    margin-top: 73px;
+    margin-top: 67%;
     clip-path: polygon(50% 0, 53% 35%, 100% 70%, 50% 40%, 0 70%, 48% 35%);
     transform: rotate(241deg);
     z-index: 2;
@@ -153,9 +135,9 @@
     content: "";
     width: 58px;
     height: 40px;
-    margin-left: 89px;
+    margin-left: 62%;
     background-color: #81ABC2;
-    margin-top: 71px;
+    margin-top: 67%;
     clip-path: polygon(50% 0, 53% 35%, 100% 70%, 50% 40%, 0 70%, 48% 35%);
     transform: rotate(120deg);
     z-index: 2;
@@ -190,6 +172,11 @@
 
 /* Aktiv bo'lmagan holda ko'rinishi */
 
+.BeeHeroBoxSimple{
+    width: 147px;
+    height: 175px;
+}
+
 .BeeHeroBox2Simple{
     margin-left: 2px;
 }
@@ -197,7 +184,7 @@
 .BeeHeroBoxSimple{
     margin-top: 80px;
     width: 147px;
-    height: 144px;
+    height: 174px;
     margin-left: 20px;
     background-color: #91ffff;
     clip-path: polygon(50% 0, 100% 24%, 100% 76%, 50% 100%, 0 76%, 0 24%);
@@ -210,7 +197,7 @@
     margin-top: 1px;
     position: absolute;
     width: 143px;
-    height: 142px;
+    height: 172px;
     background-color: #041234 ;
     clip-path: polygon(50% 0, 100% 24%, 100% 76%, 50% 100%, 0 76%, 0 24%);
    
@@ -232,10 +219,10 @@
     width: 78px;
     height: 78px;
     left: 33px;
-    top: 66px;
+    margin-top: 82%;
     background-color: #D7FAFB;
-    transform: rotate(180deg);
-    clip-path: polygon(50% 1%, 100% 25%, 100% 30%, 50% 7%, 0 30%, 0 25%);
+    transform: rotate(0deg);
+    clip-path: polygon(0 38%, 0 43%, 50% 73%, 100% 43%, 100% 38%, 50% 65%);
 }
 
 
@@ -256,10 +243,9 @@
     height: 78px;
     background-color: #DCFFFF;
     margin-left: 32px;
-    margin-top: -2px;
-    filter: blur(1px);
-    transform: rotate(0deg);
-    clip-path: polygon(50% 1%, 100% 25%, 100% 30%, 50% 7%, 0 30%, 0 25%);
+    margin-top: -23px;
+    transform: rotate(180deg);
+    clip-path: polygon(0 38%, 0 43%, 50% 73%, 100% 43%, 100% 38%, 50% 65%);
     z-index: 4;
 
          
@@ -294,9 +280,9 @@
     content: "";
     width: 58px;
     height: 40px;
-    margin-left: 0px;
+    margin-left: -3px;
     background-color: #81ABC2;
-    margin-top: 73px;
+    margin-top: 68%;
     clip-path: polygon(50% 0, 53% 35%, 100% 70%, 50% 40%, 0 70%, 48% 35%);
     transform: rotate(241deg);
     z-index: 2;
@@ -313,9 +299,9 @@
     content: "";
     width: 58px;
     height: 40px;
-    margin-left: 89px;
+    margin-left: 90px;
     background-color: #81ABC2;
-    margin-top: 71px;
+    margin-top: 68%;
     clip-path: polygon(50% 0, 53% 35%, 100% 70%, 50% 40%, 0 70%, 48% 35%);
     transform: rotate(120deg);
     z-index: 2;
@@ -329,7 +315,7 @@
     width: 120px;
     height: 100px;
     background-color: transparent;
-    padding-top: 35px;
+    padding-top: 32%;
     margin-left: 11px;
     z-index:3;
     color: wheat;
