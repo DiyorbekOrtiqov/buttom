@@ -7,6 +7,7 @@ import Skrol from "./components/skrol bottom/Skrol"
 import Dataa from "./components/skrol bottom/data"
 import Bee from "./components/bee house/Bee"
 import Icon from "./components/bottom icon/IconBottom"
+import Task from "./components/Task Azimjon aka/New/Task2"
 
 
 
@@ -19,6 +20,7 @@ function App() {
     <Dataa/>
     <Bee/>
     <Icon/>
+    <Task/>
     </>
   )
 }

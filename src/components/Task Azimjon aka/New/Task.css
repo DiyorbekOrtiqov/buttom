@@ -1,0 +1,85 @@
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.skrol {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: linear-gradient(112deg, #2269c6, #02214D, #02214D);
+    position: relative;
+    animation: spin 10s linear infinite;
+}
+
+.skrol::before {
+    position: absolute;
+    content: "";
+    width: 150px;
+    height: 150px;
+    background-color: #020E27;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+.transfornX{
+    transform: skew(-6deg, 1deg);
+}
+
+.Doblecomponent{
+    width: 180px;
+    height: 50px;
+    background:linear-gradient(#083E88, #03193F);
+    transform: matrix(1.7, 0.0, 1, 1.1, 141,-139);
+    box-shadow: 1px -7px 23px black;
+    
+}
+
+.Doblecomponent2{
+    overflow: hidden;
+    width: 180px;
+    height: 50px;
+    background:linear-gradient(#083d8882, #03193ffd);
+    transform: matrix(1.7, 0.0, 1, 1.1, 105,-163);
+    
+}
+.Doblecomponent3{
+    width: 180px;
+    height: 50px;
+    background:linear-gradient(#0066B7, #0066B7,#0066B7,#023073);
+    transform: matrix(1.2, 0.0, 0, 1.1, 53,-25);
+    
+}
+
+.TitileH2{
+    position: absolute;
+    top: -147%;
+    left: 43%;
+    width: 300px;
+}
+
+.TitileH2>p{
+    position: absolute;
+    left: -9%;
+   width: 285px;
+   height: 56px;
+   font-size: 17px;
+   overflow: hidden;
+}
