@@ -6,6 +6,7 @@ import Bottom from "./components/newTask/bottom"
 import Skrol from "./components/skrol bottom/Skrol"
 import Dataa from "./components/skrol bottom/data"
 import Bee from "./components/bee house/Bee"
+import Icon from "./components/bottom icon/IconBottom"
 
 
 
@@ -17,6 +18,7 @@ function App() {
     <Bottom/>
     <Dataa/>
     <Bee/>
+    <Icon/>
     </>
   )
 }
