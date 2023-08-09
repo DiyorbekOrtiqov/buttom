@@ -1,38 +1,79 @@
 import React from 'react'
-import ZText from '@namchee/vue-ztext';
 import "./bee.css"
-import Beew from ".././img/Bee.png"
+
+const data = [
+    {
+        id: 1,
+        title: "Bektemir",
+        count: 20,
+    },
+    {
+        id: 2,
+        title: "Mirobot",
+        count: 22,
+
+    },{
+        id: 3,
+        title: "Sergili",
+        count: 100,
+
+    },{
+        id: 4,
+        title: "Bektemir",
+        count: 22,
+
+    },{
+        id: 5,
+        title: "Bektemir",
+        count: 200,
+
+    }
+
+
+
+
+
+]
+
+
 function Bee() {
     return (
         <div className='body'>
             <div className='BeeBox'>
+            {data.map(item => (
                 <div>
-                    <div className='BeeHeroBox'>
-                        <div className='BeeHeroBoxin'>
-                            <div className='BeeHeroBigLine'>
-                            </div>
-                            <div className='BeeHeroBigLine2'>
 
-                            </div>
-                            <div className='BeeHeroLineUp1'>
+                    
+                    {/* aktiv holdagi ko'rinishi */}
 
-                            </div>
-                            <div className='BeeHeroLineUp2'>
 
-                            </div>
-                            <div className='BeeHeroLineUp3'>
+                        <div className='BeeHeroBox'>
+                            <div className='BeeHeroBoxin'>
+                                <div className='BeeHeroBigLine'>
+                                </div>
+                                <div className='BeeHeroBigLine2'>
 
-                            </div>
+                                </div>
+                                <div className='BeeHeroLineUp1'>
 
-                            <div className='BeeHeroText'>
-                                5000
-                                <br />
-                                <p>
-                                    Yunusobod
-                                </p>
+                                </div>
+                                <div className='BeeHeroLineUp2'>
+
+                                </div>
+                                <div className='BeeHeroLineUp3'>
+
+                                </div>
+
+                                <div key={item.id} className='BeeHeroTextSimple' data-count={item.count} data-location={item.title}>
+                                        {item.count}<br />
+                                        <p>{item.title}</p>
+                                    </div>
                             </div>
                         </div>
-                    </div>
+
+                    {/* statik holdagi ko'rinishi */}
+
+
                     <div className='BeeHeroBoxSimple'>
                         <div className='BeeHeroBox2Simple'>
                             <div className='BeeHeroBoxinSimple'>
@@ -50,19 +91,19 @@ function Bee() {
                                 <div className='BeeHeroLineUp3Simple'>
 
                                 </div>
-
-                                <div className='BeeHeroTextSimple'>
-                                    5000
-                                    <br />
-                                    <p>
-                                        Yunusobod
-                                    </p>
-                                </div>
+                                
+                                    <div key={item.id} className='BeeHeroTextSimple' data-count={item.count} data-location={item.title}>
+                                        {item.count}<br />
+                                        <p>{item.title}</p>
+                                    </div>
+                                
                             </div>
                         </div>
                     </div>
                 </div>
+                ))}
             </div>
+            
         </div>
     )
 }

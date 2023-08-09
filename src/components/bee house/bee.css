@@ -9,9 +9,9 @@
 .BeeBox{
     width: 500px;
     height: 500px;
-
     border-radius: 20px;
     margin-bottom: 300px;
+    display: flex;
 }
 
 
@@ -150,6 +150,7 @@
     justify-content: center;
     width: 120px;
     height: 100px;
+    top: 15px; 
     background-color: transparent;
     padding-top: 35px;
     margin-left: 11px;
@@ -175,10 +176,12 @@
 .BeeHeroBoxSimple{
     width: 147px;
     height: 175px;
+    left: -20px;
 }
 
 .BeeHeroBox2Simple{
     margin-left: 2px;
+    
 }
 
 .BeeHeroBoxSimple{
@@ -313,6 +316,7 @@
     text-align: center;
     justify-content: center;
     width: 120px;
+    top: 1px;
     height: 100px;
     background-color: transparent;
     padding-top: 32%;
