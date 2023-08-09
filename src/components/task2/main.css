@@ -1,0 +1,221 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+.CentralKomponenet{
+    position: relative;
+    width: 50px;
+    height: 128px;
+    border-radius: 1px;
+    background: linear-gradient( 171deg, rgba(0, 64, 255, 0.45) 0%, rgba(81, 197, 255, 0.574) 35%, rgba(0, 51, 255, 0.5) 100%);
+    animation: CentralKomponent 8s linear infinite;
+
+
+
+}
+
+@keyframes CentralKomponent{
+    0% {
+        background-position-Y : 0;
+    }
+    100% {
+        background-position-Y: 128px;
+    }
+}
+
+.CentralUpSkrol{
+    top: -25px;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transform: rotateX(84deg);
+    background: linear-gradient(-59deg,#0DBBE0,#025CBF,#033880);
+  
+}
+@keyframes CentralUpSkro {
+    0% {
+        background-position-y: 0;
+    }
+    100% {
+        background-position-y: 50px;
+    }
+}
+.CentralDownSkrol{
+    position: absolute;
+    width: 50px;
+    height: 40px;
+    border-radius: 50%;
+    bottom: -19px;
+    transform: rotateX(83deg);
+    background: linear-gradient(-59deg,#28DEEB,#1692BB,#023983);
+
+
+}
+
+.CentralSkrolText {
+    position: absolute; 
+    text-align: center; 
+    left: 50%; 
+    top: 50%; 
+    top: 20px;
+    transform: translate(-50%, -50%); 
+    z-index: 1;
+  }
+
+
+  .circleAnimation{
+    position: absolute;
+    left: -75px;
+    transform: rotateX(82deg);
+  }
+
+  .circleAnimation1 {
+    margin-top: -258%;
+    padding: 20px;
+    width: 120px;
+    left: 24px;
+    height: 120px;
+    border-radius: 50%;
+    margin-left: 15px;
+    position: relative;
+    animation: circleAnimation1 5s linear infinite;
+    border: 14px solid #0db9e078;
+    
+}
+
+@keyframes circleAnimation1 {
+    0% {
+        transform: rotate(0deg);
+        border-color: #0db9e078;
+    }
+    50% {
+        border-color: #0DBBE0;
+
+    }
+    100% {
+        transform: rotate(360deg);
+        border-color: #0db9e078;
+    }
+}
+
+.circleAnimation2{
+    width: 120px;
+    left: 20px;
+    height: 120px;
+    border-radius: 50%;
+    margin-left: 20px;
+    position: relative;
+    animation: circleAnimation2 5s linear infinite;
+    border: 14px solid #0db9e078;
+}
+
+@keyframes circleAnimation2 {
+    0% {
+        transform: rotate(0deg);
+        border-color: #0db9e078;
+    }
+    50% {
+        border-color: #0DBBE0;
+
+    }
+    100% {
+        transform: rotate(360deg);
+        border-color: #0db9e078;
+    }
+}
+
+.circleAnimation3{
+    width: 120px;
+    left: 24px;
+    height: 120px;
+    border-radius: 50%;
+    margin-left: 15px;
+    position: relative;
+    animation: circleAnimation3 5s linear infinite;
+    border: 14px solid #0db9e078;
+
+}
+
+
+@keyframes circleAnimation3 {
+    0% {
+        transform: rotate(0deg);
+        border-color: #0db9e078;
+    }
+    50% {
+        border-color: #0DBBE0;
+
+    }
+    100% {
+        transform: rotate(360deg);
+        border-color: #0db9e078;
+    }
+}
+
+
+.circleAnimation4{
+    width: 120px;
+    left: 24px;
+    height: 120px;
+    border-radius: 50%;
+    margin-left: 15px;
+    position: relative;
+    animation: circleAnimation4 5s linear infinite;
+    border: 14px solid #0db9e078;
+
+}
+
+
+@keyframes circleAnimation4 {
+    0% {
+        transform: rotate(0deg);
+        border-color: #0db9e078;
+    }
+    50% {
+        border-color: #0DBBE0;
+
+    }
+    100% {
+        transform: rotate(360deg);
+        border-color: #0db9e078;
+    }
+}
+
+
+
+.circleAnimation5{
+    width: 120px;
+    left: 24px;
+    height: 120px;
+    border-radius: 50%;
+    margin-left: 15px;
+    position: relative; 
+    animation: circleAnimation5 5s linear infinite;
+    border: 14px solid #0db9e078;
+
+}
+
+
+@keyframes circleAnimation5 {
+    0% {
+        transform: rotate(0deg);
+        border-color: #0db9e078;
+    }
+    50% {
+        border-color: #0DBBE0;
+
+    }
+    100% {
+        transform: rotate(360deg);
+        border-color: #0db9e078;
+    }
+}
+
+
+
+
+
