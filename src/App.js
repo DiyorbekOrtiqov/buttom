@@ -9,6 +9,7 @@ import Bee from "./components/bee house/Bee"
 import Icon from "./components/bottom icon/IconBottom"
 import Task from "./components/Task Azimjon aka/New/Task2"
 import Main from "./components/task2/main"
+import Task3 from "./components/task3/Buttom"
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
     <Icon/>
     <Task/>
     <Main/>
+    <Task3/>
     </>
   )
 }

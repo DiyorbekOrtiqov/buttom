@@ -5,29 +5,40 @@ const data = [
     {
         id: 1,
         title: "Bektemir",
-        count: 20,
+        count: 1,
     },
     {
         id: 2,
         title: "Mirobot",
-        count: 22,
+        count: 2,
 
     },{
         id: 3,
         title: "Sergili",
-        count: 100,
+        count: 3,
 
     },{
         id: 4,
         title: "Bektemir",
-        count: 22,
+        count: 4,
 
-    },{
-        id: 5,
-        title: "Bektemir",
-        count: 200,
+    },
+    // {
+    //     id: 5,
+    //     title: "Bektemir",
+    //     count: 5,
 
-    }
+    // },{
+    //     id: 6,
+    //     title: "Bektemir",
+    //     count: 6,
+
+    // },{
+    //     id: 7,
+    //     title: "Bektemir",
+    //     count: 7,
+
+    // }
 
 
 
@@ -41,7 +52,7 @@ function Bee() {
         <div className='body'>
             <div className='BeeBox'>
             {data.map(item => (
-                <div>
+                <div style={{ marginLeft:'-20px' }}>
 
                     
                     {/* aktiv holdagi ko'rinishi */}
@@ -74,7 +85,7 @@ function Bee() {
                     {/* statik holdagi ko'rinishi */}
 
 
-                    <div className='BeeHeroBoxSimple'>
+                    <div  className='BeeHeroBoxSimple'>
                         <div className='BeeHeroBox2Simple'>
                             <div className='BeeHeroBoxinSimple'>
                                 <div className='BeeHeroBigLineSimple'>

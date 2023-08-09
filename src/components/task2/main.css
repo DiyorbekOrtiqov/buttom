@@ -5,9 +5,19 @@
 }
 
 
+.BasicManagement{
+    width: 500px;
+    height:200px;
+
+    display: inline-block;
+    display: flex;
+    
+}
+
 .CentralKomponenet{
     position: relative;
     width: 50px;
+    display: flex;
     height: 128px;
     border-radius: 1px;
     background: linear-gradient( 171deg, rgba(0, 64, 255, 0.45) 0%, rgba(81, 197, 255, 0.574) 35%, rgba(0, 51, 255, 0.5) 100%);
@@ -64,6 +74,12 @@
     top: 20px;
     transform: translate(-50%, -50%); 
     z-index: 1;
+  }
+
+  .CentralSkrolTextP{
+      position: absolute;
+    margin-left: -15px;
+    margin-top: 102px;
   }
 
 
