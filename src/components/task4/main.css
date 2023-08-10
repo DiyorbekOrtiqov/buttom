@@ -1,0 +1,306 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+.FirsButtonBox{
+    width: 650px;
+    height: 150px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.FirsButton{
+    width: 600px;
+    height: 100px;
+    position: relative;
+    background:rgb(122, 82, 162);
+    border: 3px solid #38A6CE;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.FirsButtonBoxNumber{
+    position: absolute;
+    width: 200px;
+    height: 95px;
+    padding-left: 40%;
+    justify-content: center;
+    padding-top: 25%;
+    font-size: 30px;
+}
+
+.FirsButtonBoxTitile{
+    position: absolute;
+    width: 300px;
+    height: 98px;
+    background-color: rgba(0, 0, 0, 0);
+    padding-left: 1%;
+    padding-top: 1%;
+    font-size: 25px;
+    z-index: 1;
+    
+}
+
+.FirsButtonComponent{
+    width: 100px;
+    height: 9px;
+    background: rgba(165, 89, 89, 0);
+    position: relative;
+}
+
+.FirsButtonComponent::before{
+   position: absolute;
+   content: "";
+   width: 28px;
+    height: 20px;
+   background-color: #071B44 ;
+   border-bottom: 3px solid #38A6CE;
+   transform: rotate(-45deg);
+   margin-left: -13px;
+    margin-top: -11px;
+
+
+
+}
+.FirsButtonComponent::after{
+    position: absolute;
+    content: "";
+    width: 28px;
+     height: 20px;
+    background-color: #071B44 ;
+    border-top: 3px solid #38A6CE;
+    transform: rotate(45deg);
+    margin-left: -13px;
+     margin-top: 82px;
+
+}
+
+.FirsButtonComponentDown{
+
+}
+
+.FirsButtonComponentDown::before{
+    position: absolute;
+    content: "";
+     width: 15px;
+    height: 6px;
+    background-color: lawngreen;
+    transform: matrix(1.7, 0, 1.5, 1.5, 31,100);
+}
+
+.FirsButtonComponentDown::after{
+    position: absolute;
+    content: "";
+     width: 15px;
+    height: 6px;
+    background-color: lawngreen;
+    transform: matrix(1.7, 0, 1.5, 1.5, 62,100);
+}
+.FirsButtonComponentDown2{
+
+}
+
+.FirsButtonComponentDown2::before{
+    position: absolute;
+    content: "";
+     width: 15px;
+    height: 6px;
+    background-color: lawngreen;
+    transform: matrix(1.7, 0, 1.5, 1.5, 93,100);
+}
+
+
+.SecondButtonComponent{
+    position: absolute;
+    width: 180px;
+    height: 108px;
+    background: #7A52A2;
+    border-top: 3px solid #38A6CE;
+    border-bottom: 3px solid #38A6CE;
+    right: 0; 
+    margin-top: -20px;
+}
+
+.SecondButtonComponent::before{
+    position: absolute;
+    content: "";
+    width: 28px;
+     height: 20px;
+    background-color: #071B44 ;
+    border-top: 3px solid #38A6CE;
+    transform: rotate(-45deg);
+    margin-top: 91px;
+    margin-left: 92%;
+}
+
+.SecondButtonComponent::after{
+    position: absolute;
+    content: "";
+    width: 28px;
+     height: 20px;
+    background-color: #071B44 ;
+    border-bottom: 3px solid #38A6CE;
+    transform: rotate(45deg);
+    margin-top: -10px;
+    margin-left: 92%;
+}
+
+
+.SecondButtonComponentIcon{
+    
+}
+
+.SecondButtonComponentIcon::before{
+    position: absolute;
+    content: "";
+    width: 31px;
+    height: 6px;
+    background-color: lawngreen;
+    bottom: 2px;
+    margin-left: 20%;
+    transform: matrix(1.7, 0, 1.5, -1.5, 31,-2);
+}
+.SecondButtonComponentIcon::after{
+    position: absolute;
+    content: "";
+    width: 31px;
+    height: 6px;
+    background-color: lawngreen;
+    bottom: 2px;
+    margin-left: 20%;
+    transform: matrix(1.7, 0, 1.5, -1.5, 88,-2);
+}
+
+.SecondButtonComponentIconUP{
+
+}
+.SecondButtonComponentIconUP::before{
+    position: absolute;
+    content: "";
+    width: 15px;
+    height: 6px;
+    background-color: lawngreen;
+    
+    margin-left: 20%;
+    transform: matrix(1.7, 0, 1.5, -1.5, 0,4);
+}
+.SecondButtonComponentIconUP::after{
+    position: absolute;
+    content: "";
+    width: 15px;
+    height: 6px;
+    background-color: lawngreen;
+
+    margin-left: 20%;
+    transform: matrix(1.7, 0, 1.5, -1.5, 30,4);
+}
+
+.SecondButtonComponentIconUP2{
+
+}
+
+.SecondButtonComponentIconUP2::before{
+    position: absolute;
+    content: "";
+    width: 15px;
+    height: 6px;
+    background-color: lawngreen;
+    margin-left: 20%;
+    transform: matrix(1.7, 0, 1.5, -1.5, 60,4);
+}
+
+.SecondButtonComponentIconUP2::after{
+    position: absolute;
+    content: "";
+    width: 15px;
+    height: 6px;
+    background-color: lawngreen;
+    margin-left: 20%;
+    transform: matrix(1.7, 0, 1.5, -1.5, 90,4);
+}
+
+
+.ThirdButtonComponent{
+    max-width: 300px;
+    height: 110px;
+    background: #7A52A2;
+    position: absolute;
+    border-bottom: 3px solid #38A6CE;
+    left: 23%;
+    right: 18%;
+    top: -2px;
+}
+
+.ThirdButtonComponent::before{
+    position: absolute;
+    content: "";
+    width: 28px;
+    height: 19px;
+    background-color: #7A52A2;
+    border-right: 3px solid #38A6CE;
+    transform: rotate(51deg);
+    bottom: 6px;
+    margin-left: 94%;
+}
+
+.ThirdButtonComponent::after{
+    position: absolute;
+    content: "";
+    width: 17px;
+    height: 19px;
+    background-color: #7A52A2;
+    border-bottom: 3px solid #38A6CE;
+    transform: rotate(39deg);
+    bottom: 0.3px;
+    margin-left: -8px;
+    
+}
+
+.ThirdButtonComponentIn{
+    max-width: 300px;
+    height: 20px;
+    margin-top: -10px;
+    border-bottom: 3px solid #38A6CE;
+    background: #071B44;
+}
+
+.ThirdButtonComponentIn::before{
+    position: absolute;
+    content: "";
+    width: 24px;
+    height: 15px;
+    background-color: #7A52A2;
+    border-top: 3px solid #38A6CE;
+    margin-left: 95%;
+    margin-top: 7px;
+    transform: rotate(-44deg);
+
+
+}
+
+.ThirdButtonComponentIn::after{
+    position: absolute;
+    content: "";
+    width: 15px;
+    height: 15px;
+    background-color: #7A52A2;
+    transform: rotate(33deg);
+    margin-left: -6px;
+    margin-top: 12px;
+    border-top: 3px solid #38A6CE;
+
+}
+
+
+
+
+
+
+
+
+
+

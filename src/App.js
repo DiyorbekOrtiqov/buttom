@@ -10,7 +10,7 @@ import Icon from "./components/bottom icon/IconBottom"
 import Task from "./components/Task Azimjon aka/New/Task2"
 import Main from "./components/task2/main"
 import Task3 from "./components/task3/Buttom"
-
+import Task4 from "./components/task4/button"
 
 function App() {
   return (
@@ -24,6 +24,7 @@ function App() {
     <Task/>
     <Main/>
     <Task3/>
+    <Task4/>
     </>
   )
 }
