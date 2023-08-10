@@ -79,9 +79,7 @@
 
 }
 
-.FirsButtonComponentDown{
 
-}
 
 .FirsButtonComponentDown::before{
     position: absolute;
@@ -100,9 +98,7 @@
     background-color: lawngreen;
     transform: matrix(1.7, 0, 1.5, 1.5, 62,100);
 }
-.FirsButtonComponentDown2{
 
-}
 
 .FirsButtonComponentDown2::before{
     position: absolute;
@@ -150,9 +146,6 @@
 }
 
 
-.SecondButtonComponentIcon{
-    
-}
 
 .SecondButtonComponentIcon::before{
     position: absolute;
@@ -175,9 +168,6 @@
     transform: matrix(1.7, 0, 1.5, -1.5, 88,-2);
 }
 
-.SecondButtonComponentIconUP{
-
-}
 .SecondButtonComponentIconUP::before{
     position: absolute;
     content: "";
@@ -199,9 +189,7 @@
     transform: matrix(1.7, 0, 1.5, -1.5, 30,4);
 }
 
-.SecondButtonComponentIconUP2{
 
-}
 
 .SecondButtonComponentIconUP2::before{
     position: absolute;
