@@ -4,7 +4,9 @@
     box-sizing: border-box;
 }
 
-
+.body{
+    height: 1000px;
+}
 
 
 .FirsButtonBox{
@@ -284,11 +286,158 @@
 }
 
 
+/* shu yerdan boshqa botton uchun css boshlanadi */
+
+
+.SecondButton{
+    
+    width: 600px;
+    height: 200px;
+    margin-top: 20%;
+    position: relative;
+    
+}
+
+.SecondButtonNumber{
+    position: absolute;
+    left: 30%;
+    padding-left: 10%;
+    right: 40%;
+    font-size: 30px;
+    width: 270px;
+}
+.SecondButtonNumber>p{
+    position: absolute;
+    max-width:370px;
+    height: 58px;
+    left: -35px;
+    font-size: 17px;
+    width: 280px;
+    
+}
+
+
+.SecondButtonContent1::before{
+    position: absolute;
+    content: "";
+    width: 15px;
+    height: 6px;
+    background-color: #0EB8EC;
+    margin-left: 6%;
+    transform: matrix(2, 0, 10.6, -16, 0,49);
+}
+
+.SecondButtonContent1::after{
+    position: absolute;
+    content: "";
+    width: 15px;
+    height: 6px;
+    background-color: #0EB8EC;
+    margin-left: 13%;
+    transform: matrix(2, 0, 10.6, -16, 0,49);
+}
+
+.SecondButtonContent11::before{
+    position: absolute;
+    content: "";
+    width: 15px;
+    height: 6px;
+    background-color: #0EB8EC;
+    margin-left: 20%;
+    transform: matrix(2, 0, 10.6, -16, 0,49);
+
+}
+
+.SecondButtonCentralDiv{
+    max-width:355px ;
+    height: 100px;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0);
+    border-bottom: 3px solid #38A6CE;
+    margin-left: 15%;
+}
+
+.SecondButtonRightContent::before{
+    position: absolute;
+    content: "";
+    width: 15px;
+    height: 6px;
+    background-color: #0EB8EC;
+    margin-left: 76%;
+    transform: matrix(2, 0, 10.6, -16, 0,-51);
+}
+
+.SecondButtonRightContent::after{
+    position: absolute;
+    content: "";
+    width: 15px;
+    height: 6px;
+    background-color: #0EB8EC;
+    margin-left: 83%;
+    transform: matrix(2, 0, 10.6, -16, 0,-51);
+}
+
+
+.SecondButtonRightContent2::before{
+    position: absolute;
+    content: "";
+    width: 15px;
+    height: 6px;
+    background-color: #0EB8EC;
+    margin-left: 90%;
+    transform: matrix(2, 0, 10.6, -16, 0,-51);
+}
+
+
+/* shu yerdan boshqa button css boshlanadi */
+
+
+.ThirdButton{
+    /* width: 600px;
+    height: 100px; */
+    
+}
+
+.a{
+    position: relative;
+    background-color: #444;
+    color: rgb(122, 82, 162);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    font-weight: 400;
+    padding: 10px 10px ;
+    transition: 0.5s;
+    color: #444;
+
+}
+
+.a:hover{
+    background-color:chartreuse;
+    color: cyan;
+    letter-spacing: 0.25em;
+}
 
 
 
+.a::before{
+    content: "";
+    position: absolute;
+    inset: 2px;
+    background: #7A52A2;
+}
 
+.a span{
+    position: relative;
+    z-index: 1;
+}
 
-
-
-
+.a i::before{
+    position: absolute;
+    content: '';
+    width: 10px;
+    height: 6px;
+    background: #272b2c;
+    border: 3px solid chocolate;
+}

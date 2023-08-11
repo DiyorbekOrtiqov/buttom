@@ -9,17 +9,17 @@ const data = [
     title: "Tuman 1981 yilda tashkil etilgan [5] va Toshkent shahrining janubi",
     count: 15455,
   },
-  {
-    id: 2,
-    title: "Toshkent shahridagi maʼmuriy-hududiy birlik  ",
-    count: 21454,
+  // {
+  //   id: 2,
+  //   title: "Toshkent shahridagi maʼmuriy-hududiy birlik  ",
+  //   count: 21454,
 
-  }, {
-    id: 3,
-    title: "Sergeli ( oʻzbek : Sirgʻali tumani , rus . Sergeliyskiy rayon , romanlashtirilgan ",
-    count: 1312,
+  // }, {
+  //   id: 3,
+  //   title: "Sergeli ( oʻzbek : Sirgʻali tumani , rus . Sergeliyskiy rayon , romanlashtirilgan ",
+  //   count: 1312,
 
-  },
+  // },
 ]
 
 function button() {
@@ -41,7 +41,7 @@ function button() {
                 </div>
                 <div key={item.id} data-count={item.count} className='FirsButtonBoxNumber'>
                   {item.count}
-                  
+
                 </div>
               </div>
               <div className='SecondButtonComponent'>
@@ -58,8 +58,8 @@ function button() {
               <div className='ThirdButtonComponent'>
                 <div className='ThirdButtonComponentIn'>
                 </div>
-                <div key={item.id}  data-location={item.title}  className='FirsButtonBoxTitile'>
-                {item.title}
+                <div key={item.id} data-location={item.title} className='FirsButtonBoxTitile'>
+                  {item.title}
                 </div>
               </div>
             </div>
@@ -67,10 +67,38 @@ function button() {
         </div>
 
         <div className='SecondButton'>
+          {data.map(item => (
+            <div>
 
+              <div className='SecondButtonContent1'>
+              </div>
+              <div className='SecondButtonContent11'>
+              </div>
+              <div className='SecondButtonCentralDiv'>
+                <div key={item.id} data-location={item.count} className='SecondButtonNumber'>
+                  {item.count}
+                  <p key={item.id} data-location={item.title}>
+                    {item.title}
+                  </p>
+                </div>
+              </div>
+              <div className='SecondButtonRightContent'>
+
+              </div>
+              <div className='SecondButtonRightContent2'>
+
+              </div>
+            </div>
+          ))}
         </div>
 
         <div className='ThirdButton'>
+          <div className='a'>
+            <span>buttom</span>
+            <i>
+
+            </i>
+          </div>
 
         </div>
       </div>
